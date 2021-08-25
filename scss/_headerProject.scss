@@ -131,7 +131,7 @@ header.headerProject {
 
   &__title {
     padding: 20px;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 49px;
     font-family: $font-DM;
 
@@ -154,7 +154,7 @@ header.headerProject {
     padding: 0px 20px 20px 20px;
     font-weight: normal;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 20px;
     font-family: $font-R;
 
     @media (max-width: 1399px) {
@@ -210,7 +210,7 @@ header.headerProject {
 
   &__leader-position {
     text-align: center;
-    margin-bottom: 19px;
+    margin-bottom: 9px;
     font-size: 12px;
     line-height: 13px;
     font-family: $font-R;
@@ -240,8 +240,7 @@ header.headerProject {
   &__donlowad {
     border: 3px dashed #0F6FA9;
     border-radius: 30px;
-    margin-left: -10px;
-    margin-right: 20px;
+    margin-left: 0px;
     display: none;
     transition: all 0.5s ease 0.3s;
 
@@ -333,8 +332,6 @@ header.headerProject {
   &__social {
     overflow: hidden;
 
-    margin-left: -10px;
-    margin-right: 20px;
 
     background-color: #000;
     color: linen;
@@ -455,18 +452,17 @@ header.headerProject {
     font-size: 20px;
     line-height: 21px;
     text-transform: uppercase;
-    padding: 4px;
-    margin: 0px 0px 0px -15px;
+    padding: 60px 4px 60px 4px;
+    margin: 0px 0px 30px -15px;
+
 
     @media (max-width: 1399px) {
       font-size: 16px;
-      padding: 2px 2px 2px 2px;
+      padding: 50px 4px 30px 4px;
 
     }
 
-    @media(max-width: $firstBP) {
-      margin: 0px 5px 5px 5px;
-    }
+    @media(max-width: $firstBP) {}
 
   }
 
@@ -557,17 +553,7 @@ header {
 
 
 
-.project__info.art {
 
-  line-height: 1.12;
-  font-size: 15px;
-
-  @media (max-width: 1399px) {
-    line-height: 1.2;
-    font-size: 12px;
-  }
-
-}
 
 
 .slide.slide__info.aw {
@@ -620,7 +606,7 @@ header {
 
 .project__leader-position.sp {
   @media (max-width: 1399px) {
-    margin-bottom: 11px;
+    margin-bottom: 4px;
   }
 
 }
@@ -634,5 +620,15 @@ header {
     padding-bottom: 32px;
   }
 
+
+}
+
+.project__info.sil-adapt {
+  font-size: 16px;
+
+  @media (max-width: 1399px) {
+    font-size: 12px;
+
+  }
 
 }

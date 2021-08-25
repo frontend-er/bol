@@ -176,3 +176,17 @@ $fourthBP: 574px;
 .project__leader-name.leader__name {
   margin-bottom: 18px;
 }
+
+
+.text-values {
+  font-size: 18px;
+  padding: 50px;
+  font-weight: 500;
+
+  @media (max-width: 768px) {
+    padding: 10px;
+
+    font-size: 12px;
+
+  }
+}

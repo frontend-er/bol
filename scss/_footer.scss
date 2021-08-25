@@ -16,6 +16,21 @@ $fourthBP: 574px;
   background: url(../assets/img/Footer/Footer_bg.png) 0 0 no-repeat;
   background-size: cover;
   background-position: center;
+  height: 1144px;
+  padding-top: 6px;
+
+  @media (max-width:$thirdBP) {
+    height: 574px;
+
+  }
+
+}
+
+
+.footer.projects {
+  background: url(../assets/img/Footer/Footer_bg_projects.png) 0 0 no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 1574px;
   padding-top: 6px;
 
@@ -25,6 +40,24 @@ $fourthBP: 574px;
   }
 
 }
+
+
+.footer.team {
+  background: url(../assets/img/Footer/Footer_bg_team.png) 0 0 no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1144px;
+  padding-top: 6px;
+
+  @media (max-width:$thirdBP) {
+    height: 574px;
+
+  }
+
+}
+
+
+
 
 
 .leader {
@@ -312,9 +345,11 @@ $fourthBP: 574px;
 .contacts {
   margin-top: 300px;
   color: #FFFFFF;
+  padding-top: 10px;
 
   @media (max-width:$thirdBP) {
     margin-top: -2px;
+    padding-top: 70px;
 
 
   }
@@ -432,7 +467,7 @@ $fourthBP: 574px;
     letter-spacing: -0.017em;
     font-family: $font-R;
     color: #FFFFFF;
-    padding-top: 80px;
+    padding-top: 20px;
 
     @media (max-width: 575px) {
       padding-top: 10px;
@@ -440,8 +475,8 @@ $fourthBP: 574px;
 
     }
 
-    @media (max-width: 425px) {
-      padding-top: 60px;
+    @media (max-width: 537px) {
+      padding-top: 40px;
 
 
     }
@@ -453,8 +488,18 @@ $fourthBP: 574px;
 
     }
 
+
+
+
+
+
     @media (max-width: 399px) {
-      padding-top: 10px;
+      padding-top: 220px;
+      text-align: center;
+      align-items: center;
+      align-self: center;
+      margin-left: 40px;
+
 
     }
 
@@ -499,6 +544,10 @@ $fourthBP: 574px;
 
     @media (max-width: $thirdBP) {
       font-size: 26px;
+    }
+
+    @media (max-width: 537px) {
+      display: none;
     }
   }
 
@@ -645,4 +694,13 @@ $fourthBP: 574px;
 
   }
 
+}
+
+
+.contacts__form {
+  @media (max-width: 399px) {
+    display: none;
+
+
+  }
 }
