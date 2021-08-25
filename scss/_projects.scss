@@ -179,9 +179,13 @@ $fourthBP: 574px;
 
 
 .text-values {
+  background-color: #0F6FA9;
+  color: #FFFFFF;
   font-size: 18px;
   padding: 50px;
   font-weight: 500;
+  margin-top: -5px;
+  margin-right: 3px;
 
   @media (max-width: 768px) {
     padding: 10px;
