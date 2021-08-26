@@ -2294,6 +2294,18 @@ header {
   }
 }
 
+@media (max-width: 1399px) {
+  .project__leader-quote.brs {
+    display: none;
+  }
+}
+
+@media (max-width: 1399px) {
+  .project__leader-position.brs {
+    margin-top: 24px;
+  }
+}
+
 header.teamProject {
   overflow: hidden;
   background: url(../assets/img/TeamPage/Header/team_bg.png) 0 0 no-repeat;

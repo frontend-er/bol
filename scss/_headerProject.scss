@@ -208,6 +208,9 @@ header.headerProject {
 
   }
 
+
+
+
   &__leader-position {
     text-align: center;
     margin-bottom: 9px;
@@ -631,4 +634,19 @@ header {
 
   }
 
+}
+
+.project__leader-quote.brs {
+  @media (max-width: 1399px) {
+    display: none;
+
+  }
+}
+
+
+.project__leader-position.brs {
+  @media (max-width: 1399px) {
+    margin-top: 24px;
+
+  }
 }
