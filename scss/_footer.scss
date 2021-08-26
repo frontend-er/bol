@@ -546,9 +546,7 @@ $fourthBP: 574px;
       font-size: 26px;
     }
 
-    @media (max-width: 537px) {
-      display: none;
-    }
+
   }
 
   .donation {
@@ -698,7 +696,7 @@ $fourthBP: 574px;
 
 
 .contacts__form {
-  @media (max-width: 399px) {
+  @media (max-width: $thirdBP) {
     display: none;
 
 
